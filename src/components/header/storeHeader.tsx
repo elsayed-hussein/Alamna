@@ -3,9 +3,7 @@ import StoreLink from "../link/storeLink";
 import { Routes } from "@/constants/enums";
 import StoreNavbar from "./storeNavbar";
 
-type Props = {};
-
-const StoreHeader = (props: Props) => {
+const StoreHeader = () => {
   return (
     <header>
       <div className="container">

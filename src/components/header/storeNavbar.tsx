@@ -2,9 +2,7 @@ import React from "react";
 import StoreLink from "../link/storeLink";
 import { Pages, Routes } from "@/constants/enums";
 
-type Props = {};
-
-const StoreNavbar = (props: Props) => {
+const StoreNavbar = () => {
   const links = [
     { id: crypto.randomUUID(), title: "Vendors", href: Routes.VENDORS },
     { id: crypto.randomUUID(), title: "About", href: Routes.ABOUT },
