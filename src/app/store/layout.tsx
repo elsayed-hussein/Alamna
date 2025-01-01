@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
-import "./globals.css";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -9,8 +8,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Alamna",
-  description: "Our World",
+  title: "Alamna Store",
+  description: "Alamna Store",
+  icons: "/favicon.ico",
 };
 
 export default function RootLayout({
