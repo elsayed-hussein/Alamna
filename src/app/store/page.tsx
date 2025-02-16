@@ -1,10 +1,11 @@
-import { Button } from "@/components/ui/button";
+import Hero from "./_components/Hero";
+import BestSellers from "./_components/BestSellers";
 
 export default function Home() {
   return (
     <main>
-      <h1 className="text-primary">Store page</h1>
-      <Button>Home Page</Button>
+      <Hero />
+      <BestSellers />
     </main>
   );
 }

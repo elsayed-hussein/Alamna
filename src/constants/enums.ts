@@ -11,6 +11,7 @@ export enum Languages {
 export enum Routes {
   ROOT = "/",
   STORE = "/store",
+  MENU = "menu",
   VENDORS = "vendors",
   ABOUT = "about",
   CONTACT = "contact",
